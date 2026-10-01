@@ -1,0 +1,18 @@
+{
+  "protocol": "HTTP/3 Server-Sent Events (SSE)",
+  "platform": "Anthropic Claude (Sonnet 5.5)",
+  "captured_timestamp": "2026-10-01",
+  "analysis": "This log demonstrates the layered streaming pipeline of Claude, tracking live ping markers, internal thinking blocks, and dynamic progressive text chunk deltas.",
+  "raw_event_stream": [
+    "event: ping\ndata: {\"type\":\"ping\"}",
+    "event: message_start\ndata: {\"type\":\"message_start\",\"message\":{\"id\":\"chatcompl_MOCK_ID\",\"type\":\"message\",\"role\":\"assistant\",\"model\":\"claude-sonnet-5-5\"}}",
+    "event: content_block_start\ndata: {\"type\":\"content_block_start\",\"index\":0,\"content_block\":{\"type\":\"thinking\",\"thinking\":\"\",\"summaries\":[],\"truncated\":true}}",
+    "event: content_block_delta\ndata: {\"type\":\"content_block_delta\",\"index\":0,\"delta\":{\"type\":\"thinking_summary_delta\",\"summary\":{\"summary\":\"Drafting a short three-paragraph story.\"}}}",
+    "event: content_block_stop\ndata: {\"type\":\"content_block_stop\",\"index\":0,\"summary_pending\":false}",
+    "event: content_block_start\ndata: {\"type\":\"content_block_start\",\"index\":1,\"content_block\":{\"type\":\"text\",\"text\":\"\"}}",
+    "event: content_block_delta\ndata: {\"type\":\"content_block_delta\",\"index\":1,\"delta\":{\"type\":\"text_delta\",\"text\":\"The\"}}",
+    "event: content_block_delta\ndata: {\"type\":\"content_block_delta\",\"index\":1,\"delta\":{\"type\":\"text_delta\",\"text\":\" l\"}}",
+    "event: content_block_delta\ndata: {\"type\":\"content_block_delta\",\"index\":1,\"delta\":{\"type\":\"text_delta\",\"text\":\"ighthouse ke\"}}",
+    "event: content_block_delta\ndata: {\"type\":\"content_block_delta\",\"index\":1,\"delta\":{\"type\":\"text_delta\",\"text\":\"eper's\"}}"
+  ]
+}
