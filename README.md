@@ -77,11 +77,13 @@ Inspecting the raw downstream socket buffer exposes a complex, highly specialize
 If u inspect Claude AI, you can mark the space XHR or something like this and alternate between the sections of the Ai processement:
 
 <img width="1553" height="672" alt="image" src="https://github.com/user-attachments/assets/2d9af810-907f-4525-956c-91c6c325e173" />
+
 <img width="1278" height="308" alt="Screenshot 2026-10-01 143043" src="https://github.com/user-attachments/assets/c4d35b13-435a-4fc7-8644-98c95d207892" />
-<img width="592" height="278" alt="Screenshot 2026-10-01 143435" src="https://github.com/user-attachments/assets/812102af-873a-4fd7-90a6-039a7eeb8aab" />
-<img width="585" height="284" alt="Screenshot 2026-10-01 143428" src="https://github.com/user-attachments/assets/222ff9e3-4b13-4344-a0c6-dcbd0651d902" />
-<img width="586" height="289" alt="Screenshot 2026-10-01 143423" src="https://github.com/user-attachments/assets/412252ba-bea5-416d-9eb2-795f7ea9ab0e" />
-<img width="582" height="265" alt="Screenshot 2026-10-01 143416" src="https://github.com/user-attachments/assets/bb5e4582-83ba-41fd-8f94-9c97d448ab8b" />
+
+<img width="592" height="278" alt="Screenshot 2026-10-01 143435" src="https://github.com/user-attachments/assets/812102af-873a-4fd7-90a6-039a7eeb8aab" />  <img width="585" height="284" alt="Screenshot 2026-10-01 143428" src="https://github.com/user-attachments/assets/222ff9e3-4b13-4344-a0c6-dcbd0651d902" />
+
+<img width="586" height="289" alt="Screenshot 2026-10-01 143423" src="https://github.com/user-attachments/assets/412252ba-bea5-416d-9eb2-795f7ea9ab0e" />  <img width="582" height="265" alt="Screenshot 2026-10-01 143416" src="https://github.com/user-attachments/assets/bb5e4582-83ba-41fd-8f94-9c97d448ab8b" />
+
 
 ---
 
