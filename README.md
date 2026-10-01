@@ -90,10 +90,15 @@ If u inspect Claude AI, you can mark the space XHR or something like this and al
 And, if you do the same on ChatGPT, you can do the same things:
 
 <img width="1365" height="634" alt="Screenshot 2026-10-01 142857" src="https://github.com/user-attachments/assets/d01a486c-7d74-4210-9f6d-d550cc2a9bd7" />
-<img width="790" height="452" alt="Screenshot 2026-10-01 141157" src="https://github.com/user-attachments/assets/68bfa3ff-a75b-4b1a-82e7-501b3357b642" />
-<img width="1093" height="605" alt="Screenshot 2026-10-01 140833" src="https://github.com/user-attachments/assets/41d9cb3c-ce9c-448f-a8a4-4190279eb0ef" />
 
 ---
+
+Also here's a bonus 
+
+If you do the same on Google Gemini, you can do EXACTLY the same things.
+
+<img width="790" height="452" alt="Screenshot 2026-10-01 141157" src="https://github.com/user-attachments/assets/68bfa3ff-a75b-4b1a-82e7-501b3357b642" />
+<img width="1093" height="605" alt="Screenshot 2026-10-01 140833" src="https://github.com/user-attachments/assets/41d9cb3c-ce9c-448f-a8a4-4190279eb0ef" />
 
 ## 📂 Repository Blueprint
 
