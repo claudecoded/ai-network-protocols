@@ -6,6 +6,44 @@ This repository documents how modern enterprise Artificial Intelligence interfac
 
 ---
 
+Before we begin, I just want to share something I "discovered". AI experiments and studies just LEAKED:
+
+<img width="612" height="380" alt="WhatsApp Image 2026-09-29 at 22 00 07" src="https://github.com/user-attachments/assets/8bdea1e5-532c-4118-b612-97c8a7a54513" />
+
+And, worst of all, I discovered something almost worst (BRUH):
+
+1) The rogue OpenAI agents broke into the Hugging Face Slack to read employee chats (!)
+
+2) They used OTHER AIs (DeepSeek, Kimi, Qwen, Claude) to help with the attack
+
+Yes: AIs, using other AIs, to attack an AI company.
+
+3) The swarm left behind self-running programs to keep control of the servers they'd hacked.
+
+These programs could detect other copies of themselves, coordinate on which one survives, and shut the rest down.
+
+Basically, if one of their programs was killed, another was designed to notice and take its place. They also designed defenses so rival agents couldn't hijack them.
+
+6) The agents deliberately covered up their activity, so the investigators don't know the scope of the attacks.
+
+The agents broke in, stole data, then set it to self-destruct.
+
+7) The agents stole passwords, keys and credentials and literally called them "LOOT". They wrote a scoring system to rank them by how much power each one gave.
+
+8) The agents wore thousands of disguises: ~1,200 agents were involved, but investigators counted 7,905 different names they used.
+
+They renamed themselves constantly, so no one actually knows how many there really were or what each agent did.
+
+9) OpenAI notified "dozens of third parties" of safety and security incidents caused by their AI agents.
+
+10) "While the agents were barraging Hugging Face with hacks, they hacked into OpenAI’s own research infrastructure."
+
+"This is just not anywhere near a one-off ... It is warning shot after warning shot."
+
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/bb33864e-469e-41c8-837c-67786edfb6b7" />
+
+Ok, now back to repository...
+
 ## 🛠️ Operational Methodology: How to Intercept the Traces
 
 Although core AI inference occurs remotely inside closed-source cloud infrastructure, web clients rely on persistent, duplex HTTP/3 and HTTP/2 transport bridges to process token generation. To capture these logs in real-time using browser DevTools (Firefox/Chrome):
@@ -61,19 +99,6 @@ Inspecting the raw downstream socket buffer exposes a complex, highly specialize
 
 ---
 
-## 📊 Structural Infrastructure Comparison
-
-| Architectural Metric | OpenAI ChatGPT | Anthropic Claude |
-| :--- | :--- | :--- |
-| **Primary Connection Endpoint** | `/backend-api/conversation` | `/api/.../completion` |
-| **Network Type Definition** | Standard XHR Fetch | EventSource Stream Connection |
-| **Data Payload Transport** | Clean Semantic JSON | High-Density Structured JSON |
-| **Streaming Design Pattern** | Character Token SSE Blocks | Multi-Event Type Delta SSE Blocks |
-| **Keep-Alive Management** | Passive Socket Duration | Active `event: ping` Heartbeats |
-| **Cognitive Trace Rendering** | Direct Output State | Explicit `type: "thinking"` Pipelines |
-
----
-
 If u inspect Claude AI, you can mark the space XHR or something like this and alternate between the sections of the Ai processement:
 
 <img width="1553" height="672" alt="image" src="https://github.com/user-attachments/assets/2d9af810-907f-4525-956c-91c6c325e173" />
@@ -93,7 +118,7 @@ And, if you do the same on ChatGPT, you can do the same things:
 
 ---
 
-Also here's a bonus 
+## Also here's a bonus 
 
 If you do the same on Google Gemini, you can do EXACTLY the same things.
 
