@@ -1,0 +1,15 @@
+# Log files
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment variables (To prevent leaking API keys or tokens)
+.env
+.env.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
