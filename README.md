@@ -98,7 +98,9 @@ Also here's a bonus
 If you do the same on Google Gemini, you can do EXACTLY the same things.
 
 <img width="790" height="452" alt="Screenshot 2026-10-01 141157" src="https://github.com/user-attachments/assets/68bfa3ff-a75b-4b1a-82e7-501b3357b642" />
-<img width="1093" height="605" alt="Screenshot 2026-10-01 140833" src="https://github.com/user-attachments/assets/41d9cb3c-ce9c-448f-a8a4-4190279eb0ef" />
+<img width="1389" height="768" alt="image" src="https://github.com/user-attachments/assets/19931759-39fd-4969-a201-b689ab346e16" />
+
+---
 
 ## 📂 Repository Blueprint
 
